@@ -1,13 +1,11 @@
 #even or odd
-#def even_or_odd(number):
-  # if number % 2 == 0:
-  #  return 'Even'
- #  else:
-   # return 'Odd'
+def even_or_odd(number):
+   if number % 2 == 0:
+    return 'Even'
+   else:
+    return 'Odd'
 
 #count the vowels
-import string
-
 
 def getCount(string):
    vowels = 'aeiou'
@@ -16,3 +14,6 @@ def getCount(string):
       if char in vowels:
          count += 1
       return count
+#number to string
+def number_to_string(num):
+    return str(num)
